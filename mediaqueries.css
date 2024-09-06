@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) { /* when screen size is less than 1200px */
+    #desktop-nav {
+        display: none; /* dewktop navigation disappears */
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
