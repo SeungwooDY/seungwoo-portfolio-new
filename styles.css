@@ -345,3 +345,43 @@ sections {
     height: 100px;
     width: 100px;
 }
+
+.arrow-pic-2 {
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    bottom: 2.5rem;
+    height: 30px;
+    width: 30px;
+}
+
+.arrow-pic-2:hover {
+    cursor: pointer;
+}
+
+/* CONTACT */
+
+.contact-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-container, .contact-details-container {
+    display: flex;
+}
+
+.contact-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.email-pic {
+    height: 150px;
+    width: 150px;
+}
+
+.phone-pic {
+    height: 150px;
+    width: 150px;
+}
